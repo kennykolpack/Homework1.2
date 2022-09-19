@@ -57,5 +57,14 @@ public class Main {
         System.out.println("Разница в весе боксеров используя вычитание " + weightDifference + "кг");
         weightDifference = boxerWeight2 % boxerWeight1;
         System.out.println("Разница в весе боксеров используя функцию остаток от деления " + weightDifference + "кг");
+        // Задача 8
+        System.out.println("Задача 8");
+        var workingHours = 640;
+        var employeeHours = 8;
+        var totalEmployees = workingHours / employeeHours;
+        System.out.println("Всего работников в компании " + totalEmployees + " человек");
+        totalEmployees = totalEmployees + 94;
+        workingHours = totalEmployees * employeeHours;
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + workingHours + " часов работы может быть поделено между сотрудниками");
     }
 }
